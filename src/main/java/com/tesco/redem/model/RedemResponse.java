@@ -13,5 +13,7 @@ public class RedemResponse {
 	
 	 private String  respCode;			
 	 private String  respMsg;
+	 
+	 private String description;
 
 }
