@@ -39,8 +39,10 @@ public class CreditLimitRedemController {
 
 		//4  Send response to client/consumer
 
+		RedemResponse redemResponse	=creditLimitRedemService.increaseLimit(redemRequest);
 		
-		return null;
+		
+		return redemResponse;
 		
 		
 	 }

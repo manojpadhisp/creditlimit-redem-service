@@ -3,18 +3,22 @@
  */
 package com.tesco.redem.dao;
 
+import org.springframework.stereotype.Component;
+
 import com.tesco.redem.model.RedemDaoRequest;
 import com.tesco.redem.model.RedemDaoResponse;
 
 /**
  * @Author Manoj by 15-Aug-2023
  */
+@Component
 public class CreditLimitRedemDaoImpl implements ICreditLimitRedemDao {
 
 	@Override
 	public RedemDaoResponse redemption(RedemDaoRequest redemDaoRequest) {
 		
-		return null;
+		RedemDaoResponse redemDaoResponse = new RedemDaoResponse();
+		return redemDaoResponse;
 	}
 
 }

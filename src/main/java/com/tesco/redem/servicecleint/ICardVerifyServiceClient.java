@@ -11,6 +11,6 @@ import com.tesco.redem.model.CardVerifyServiceClientResponse;
  */
 public interface ICardVerifyServiceClient {
 	
-	CardVerifyServiceClientResponse verifyCard(CardVerifyServiceClientRequest cardVerifyServiceClientRequest);
+	CardVerifyServiceClientResponse verifyCard(String cardnumber);
 
 }
